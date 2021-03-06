@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Official Eminem Online Store</title>
+<meta charset="utf-8">
+<link rel="icon" href="eminem-icon.png" type="image/x-icon">
+<link rel="stylesheet" href="eminemlib.css">
+<link href="http://fonts.googleapis.com/css?family=Amatic%20SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" 
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="mySidenav2" class="sidenav2">
+	<p>Shopping Cart</p>
+	<a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+	<p>YOUR CART IS CURRENTLY EMPTY.</p>
+</div>
+
+<div id="main2">
+
+	<div class="shopdiv">
+		<div class="shopheader">
+			<a href="eminem-shop.html" style="display: inline-block;">
+				<img src="eminem-logo-shop.png">
+			</a>
+			
+			<ul>
+				<li><a href="eminem-shop-all.html">T-SHIRTS AND HOODIES</a></li>
+				<li><a href="eminem-home.html">Back to eminem.com</a></li>
+				<li><a id="demodemo" style="cursor:pointer;" onclick="openNav2()">Cart(0) <i class="fa fa-shopping-cart"></i></a></li>
+			</ul>
+		</div>
+	
+		<div class="flex">
+			<div class="flexitem10">
+				<a href="eminem-shop.html">Home</a>
+					<i class="fa fa-angle-right"></i>
+				<a href="eminem-shop-all.html">T-SHIRTS AND HOODIES</a>
+			</div>
+		</div>
+		
+		<div class="flex">
+			<div class="flexitem15">
+				<h1>ALL APPAREL</h1>
+				<table>
+					<tr>
+						<td><a href="eminem-shirt1.html"><img src="src\assets\shop\shirt1.png"><h3>Basic E-Shirt</h3><h3>$ 15.00</h3></a></td>
+						<td><a href="eminem-shirt2.html"><img src="src\assets\shop\shirt2.png"><h3>My Name Is... T-Shirt</h3><h3>$ 15.00</h3></a></td>
+						<td><a href="eminem-shirt3.html"><img src="src\assets\shop\shirt3.png"><h3>Real Slim Shady T-Shirt</h3><h3>$ 15.00</h3></a></td>
+						<td><a href="eminem-shirt4.html"><img src="src\assets\shop\shirt4.png"><h3>Slim Shady T-Shirt</h3><h3>$ 15.00</h3></a></td>
+					</tr>
+						
+					<tr>
+						<td><a href="eminem-shirt5.html"><img src="src\assets\shop\shirt5.png"><h3>Basic Hood-E</h3><h3>$ 45.00</h3></a></td>
+						<td><a href="eminem-shirt6.html"><img src="src\assets\shop\shirt6.png"><h3>Super Hood-E</h3><h3>$ 45.00</h3></a></td>
+						<td><a href="eminem-shirt7.html"><img src="src\assets\shop\shirt7.png"><h3>The Way I Am Hoodie</h3><h3>$ 45.00</h3></a></td>
+						<td><a href="eminem-shirt8.html"><img src="src\assets\shop\shirt8.png"><h3>Dear Slim T-Shirt</h3><h3>$ 25.00</h3></a></td>
+					</tr>
+				
+					<tr>
+						<td><a href="eminem-shirt9.html"><img src="src\assets\shop\shirt9.png"><h3>Love Is Evol T-Shirt</h3><h3>$ 25.00</h3></a></td>
+						<td><a href="eminem-shirt10.html"><img src="src\assets\shop\shirt10.png"><h3>'Till I Collapse Hoodie</h3><h3>$ 45.00</h3></a></td>
+						<td><a href="eminem-shirt11.html"><img src="src\assets\shop\shirt11.png"><h3>Guts Over Fear Hoodie</h3><h3>$ 45.00</h3></a></td>
+					</tr>
+				</table>
+				<hr>
+			</div>
+		</div>
+		
+		<div class="flex">
+			<div class="flexitem14">
+				&#169; COPYRIGHT 2021 EMINEM
+			</div>
+		</div>
+		
+		<div class="shopfooter">
+			<ul>
+				<li><a href="eminem-home.html">Home</a></li> |
+				<li><a href="eminem-news.html">News/Events</a></li> |
+				<li><a href="eminem-top10.html">Top 10</a></li> |
+				<li><a href="eminem-albums.html">Albums</a></li> |
+				<li><a href="eminem-video.html">Video</a></li> |
+				<li><a href="eminem-shop.html">Shop</a></li>
+			</ul>
+			
+			<ul class="footericons">
+				<li><a href="https://www.facebook.com/eminem"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://twitter.com/Eminem"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/eminem/"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.youtube.com/user/EminemMusic"><i class="fa fa-youtube-play"></i></a></li>
+				<li><a href="http://eminem.tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+			</ul>
+
+		</div>
+		
+	</div>
+	
+</div>
+
+<script>
+function openNav2() {
+    document.getElementById("mySidenav2").style.width = "300px";
+    document.getElementById("main2").style.marginRight = "300px";
+	document.getElementById("demodemo").style.color = "#ED1C16";
+}
+
+function closeNav2() {
+    document.getElementById("mySidenav2").style.width = "0";
+    document.getElementById("main2").style.marginRight= "0";
+	document.getElementById("demodemo").style.color = "#E1E8ED";
+}
+</script>
+</body>
+</html>
